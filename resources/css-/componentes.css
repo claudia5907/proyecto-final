@@ -1,0 +1,66 @@
+.botoncancelar{
+   background-image:url(<?php echo base_url()?>resources/imagenes/cancelar_carga.png);
+   background-repeat:no-repeat;
+   height:23px;
+   width:22px;
+   background-position:center;
+   cursor: pointer;
+}
+.botonguardar{
+   background-image:url(<?php echo base_url()?>resources/imagenes/guardar.png);
+   background-repeat:no-repeat;
+   height:23px;
+   width:22px;
+   background-position:center;
+   cursor: pointer;
+}
+.botonadicionar{
+   background-image:url(<?php echo base_url()?>resources/imagenes/add.png);
+   background-repeat:no-repeat;
+   height:23px;
+   width:22px;
+   background-position:center;
+   cursor: pointer;
+}
+.botoneliminar{
+   background-image:url(<?php echo base_url()?>resources/imagenes/delete.png);
+   background-repeat:no-repeat;
+   height:23px;
+   width:22px;
+   background-position:center;
+   cursor: pointer;
+}
+.boton_guardar{
+   background-image:url(<?php echo base_url()?>resources/imagenes/icono_guardar.jpg);
+   background-repeat:no-repeat;
+   height:50px;
+   width:50px;
+   background-position:center;
+   cursor: pointer;
+}
+.boton_preview{
+   background-image:url(<?php echo base_url()?>resources/imagenes/preview_report.png);
+   background-repeat:no-repeat;
+   height:23px;
+   width:22px;
+   background-position:center;
+   cursor: pointer;
+}
+.boton_preview_2{
+   background-image:url(<?php echo base_url()?>resources/imagenes/preview_2.png);
+   background-repeat:no-repeat;
+   height:32px;
+   width:32px;
+   background-position:center;
+   cursor: pointer;
+}
+.btn_new{
+	background: url(<?php echo base_url()?>resources/imagenes/nuevo.png) no-repeat;
+	display: inline-block;
+	height: 9px;
+	width: 32px;
+    border: none;
+}
+.btn_new:hover{
+    background: url(<?php echo base_url()?>resources/imagenes/nuevo.png) 0 -9px;
+}

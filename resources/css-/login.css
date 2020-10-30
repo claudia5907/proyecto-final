@@ -1,0 +1,176 @@
+body{	
+    background-color: #F2F2F2;  
+	color: #333;
+	font-size: 12px;
+	font-family: tahoma,arial,sans-serif;    
+    margin: 0;
+    padding: 0;	    
+}
+#wrapper{				
+	width: 100%;	
+	margin: 0;
+	padding: 0;	
+}
+#container{
+    margin: 155px auto;
+    width: 600px;    
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #6FA7D1 ), to( #dce4eb)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #6FA7D1, #dce4eb ); /* Chrome 10+, Saf5.1+ */
+	background-image: -moz-linear-gradient( #6FA7D1 , #dce4eb ); /* FF3.6 */
+	background-image: -ms-linear-gradient( #6FA7D1 , #dce4eb ); /* IE10 */
+	background-image: -o-linear-gradient( #6FA7D1 , #dce4eb ); /* Opera 11.10+ */
+	background-image: linear-gradient( #6FA7D1 , #dce4eb );	
+	border-radius: 5px;
+	-moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+	behavior: url(../js/PIE.htc);
+	box-shadow: 0px 0px 5px #333;
+	border: 1px solid #999;
+}
+#formlogin{		
+	border-radius: 5px;
+	-moz-border-radius:5px; 
+    -webkit-border-radius:5px;
+	behavior: url(../js/PIE.htc); 	
+}
+.header_login{       
+	color:#2E6E9E;
+    padding: 30px 0 15px;
+	text-align:center;
+	font-size:21px;
+	border-radius: 8px 8px 0 0;
+	-moz-border-radius: 8px 8px 0 0;
+    -webkit-border-radius: 8px 8px 0 0;
+	-ms-border-radius: 8px 8px 0 0;
+	behavior: url(../js/PIE.htc);
+    font-weight: normal;   
+    text-shadow: 1px 1px 1px #999999;
+}
+.header_login span{ 	
+    color: #D17703;
+    font-family: Bree Serif;    
+    font-size: 24px;
+}
+.body_login{
+	height:225px;	
+	position:relative;
+}
+.body_login form h3{
+	color:#444 !important;
+    font-size:18px;
+    font-weight:normal;
+	margin-left:38px;
+}
+.body_login .figurelogo{
+	bottom:25px;
+    position:absolute;
+    right:12px;
+    width:180px;
+}
+.body_login form{
+	margin: 20px 65px 0;
+}
+.rowform{
+	margin-bottom: 10px;
+	overflow:hidden;
+}
+.rowform label:first-child {	
+    color: #333;
+    display: inline-block;  
+    font-size: 12px;    
+    padding: 11px 10px;
+    text-align: right;
+    width: 110px;
+	font-family:Tahoma, arial,sans-serif;
+}
+.rowform label:last-child {
+	font-weight: bold;
+    margin-left: 5px;
+	color: red;
+}
+.rowform input.text[type="text"], input.text[type="password"]{	
+	color:#111;	
+	padding:4px 6px;	
+	border:1px solid #63839C;
+	font-family:tahoma, arial,sans-serif;
+    border-radius:5px; 
+    -moz-border-radius:5px; 
+    -webkit-border-radius:5px; 
+    -ms-border-radius:5px;
+	width:250px;
+	font-size:12px;
+}
+.rowsubmit{	
+	overflow:hidden;
+	text-align:center;
+	padding: 10px;
+}
+.rowsubmit input.btnsubmit{	
+	background-color: #0B426B;
+	color: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;    
+	padding: 4px 20px;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;	
+    -ms-border-radius: 5px;
+	behavior: url(../js/PIE.htc); 
+	box-shadow: 0px 0px 7px #555;
+	font-family: tahoma;
+    font-size: 12px;
+}
+.rowsubmit input.btnsubmit:hover{
+	box-shadow: 0px 0px 10px #000;	
+}
+.footer_login{
+    background: #F5BE5F;
+	border-top: 1px solid #333;
+	color: #444;
+	font-size: 12px;
+	padding: 10px 2px;
+	border-radius: 0 0 8px 8px;
+	-moz-border-radius: 0 0 8px 8px;
+    -webkit-border-radius: 0 0 8px 8px;
+	-ms-border-radius: 0 0 8px 8px;
+	behavior: url(../js/PIE.htc); 	
+}
+.mssgeinvalido{
+	color: red; 	
+	margin: 0 auto;
+	text-align: center;
+	font-family: tahoma;
+    font-size: 11px;
+}
+#olvidopsw{
+	font-family: "Tahoma";
+	font-size: 11px;
+	color:#333;
+    left: 128px;
+    position: absolute;
+    top: 102px;
+}
+#olvidopsw a{    
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #0071bc;
+	text-decoration: none;
+	display: block;
+    margin-top: 3px;
+}
+#olvidopsw a:hover{ 
+	color: #D17703;
+}
+.paddingtop{
+	padding-top: 10px;
+}
+.mssgeenvio{
+	font-family: tahoma;
+    font-size: 11px;
+    line-height: 16px;
+    margin: 30px auto;
+    text-align: center;
+    width: 165px;
+	color: #00CC00;
+}
